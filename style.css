@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Caramel&family=Chivo+Mono:ital,wght@1,200&family=Hanken+Grotesk:wght@600&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Montserrat:wght@300&family=Noto+Sans:wght@600&family=Oswald:wght@300&family=Prosto+One&family=Roboto:wght@500&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Storm&family=Rubik+Vinyl&display=swap');
+body{
+    scroll-behavior: smooth;
+}
+header {
+    height: 650px;
+    /* background-image: url('https://wallpaperaccess.com/full/1318106.jpg');  */
+    background-image: url('https://wallpaperaccess.com/full/2189084.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+
+
+}
+
+.navbar {
+    background-color: transparent;
+   
+    
+}
+
+#title-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.nav-item {
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+    position: relative;
+
+
+}
+
+.nav-item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:
+        #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+
+}
+
+
+
+
+.right-side {
+    /* background-color: #6bc50b; */
+    width: 100%;
+
+
+}
+
+.travel-message {
+    font-size: 40px;
+    color:white;
+    font-family: 'Andika', sans-serif;
+    margin-top: 78px;
+    
+
+
+}
+
+.quote {
+    background-color: white;
+}
+
+.modal-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     /* animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft; */  
+
+
+
+}
+ /* @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  } */ 
+
+.inter-left{
+    width: 100%;
+    background-color: #0087ca;
+    height: 500px;
+    background-image: url('https://ui-assets-gc.thrillophilia.com/assets/homepage/luxury-experiences/Main@2x-839a1aacc0ef63fd9cfe318bbe8278fea922408b78dd3839c5ce986a35365f9d.jpg');
+    background-size: cover;
+    border-radius: 22px;
+    color: white;
+    
+    
+}
+.inter-text1{
+     margin-top: 175px; 
+     margin-left: 30px; 
+}
+.inter-text2{
+    margin-left: 30px;
+}
+.booknow{
+    float: right;
+    margin-right: 20px;
+    width: 130px;
+    height: 45px;
+    font-size: 21px;
+    background-color: rgb(244, 244, 8);
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+.inter-right{
+    height: 500px;
+    width: 100%;
+     /* background-color: aqua; */ 
+}
+.ir-1{
+    width: 100%;
+    height: 50%;
+     /* background-color: bisque;  */
+
+}
+.ir-2{
+    width: 100%;
+    height: 50%;
+    margin-top: 9px;
+     /* background-color: rgb(97, 17, 195);  */
+}
+.collage-card{
+    width: 30%;
+    float: left;
+    margin-left: 15px;  
+    border-radius: 10px;
+}
+.colcard-img{
+    width: 100%;
+    height: 240px;
+    filter: brightness(75%);
+    border-radius: 8px; 
+}
+@media  (max-width:460px) {
+    .collage-card{
+        width: 100%;
+         margin-left: 1px; 
+        height: 800px;
+        margin-top: 20px;
+
+    }
+    .ir-1{
+        height: 700px;
+        width: 100%;
+    }
+    .colcard-img{
+        width: 100%;
+        filter: brightness(85%);
+    }
+    .inter-right{
+        height: 1570px;
+    }
+    
+    
+    
+}
+    
+
+
+
+.india-title{
+    font-weight: bold
+}
+.india-best{
+    width: 100%;
+    height: 200px;
+     /* background-color: #0087ca; */ 
+    
+}
+.india-card{
+    /* height: 200px; */
+    width: 100%;
+
+    border-radius: 8px;  
+    /* position: relative; */
+
+
+}
+.indcard-img{
+    height: 100%;
+    width: 100%;
+     border-radius: 8px; 
+}
+.ind-links{
+    height: 350px;
+}
+.ind-content{
+    /* position: absolute; */
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0,0.5);
+    width: 100%;
+    height: 60px;
+
+}
+
+
+.honey-img{
+    height: 250px;
+    width: 100%;
+}
+.honey-text{
+    text-align: justify;
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    
+    /* position: 0; */
+    /* margin-top: 20px; */
+}
+.honey-day{
+    font-size: 15px;
+    color: bisque ;
+}
+.honey-title{
+    color: white;
+    /* height: 100%; */
+    /* width: 100%; */
+    /* position: absolute; */
+
+}
+.honey-btn{
+    /* height: 100%; */
+    /* position: absolute; */
+    margin-top: 8px;
+
+}
+.honey-card{
+    height: 450px;
+    /* width: 100%; */
+    border-radius: 22px;
+}
+.honey-body{
+    height: 200px;
+    border-radius: 22px;
+    /* position: relative; */
+}
+.carousel-inner{
+    height: 420px;
+    border-radius: 22px;
+}
+.festival-caimg{
+    height: 420px;
+    
+    filter: brightness(65%);
+}
+@media (max-width:690px) {
+    .festival-caimg{
+        filter: brightness(90%);
+    }
+}
+.festival-carousel{
+    height: 420px;
+    width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: blue
+  
+}
+.collage-img{
+    width: 100%;
+    height: 315px;
+    border-radius: 22px;
+}
+
+.exp-img{
+    width: 100%;
+    
+    height: 350px; 
+    /* display: block; */
+}
+.exp-overlay{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0,0.5);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  
+}
+.exp-container{
+    position: relative;
+
+
+}
+.exp-container:hover .exp-overlay{
+    height: 100%;
+    
+}
+.exp-text{
+    color: white;
+  /* font-size: 20px; */
+  position: absolute; 
+   top: 30%;  
+  
+   left: 50%; 
+    -webkit-transform: translate(-50%, -50%);  
+    -ms-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);  
+    text-align: center;  
+  
+}
+.btn-danger{
+    margin-top: 140px;
+}
+.exp-rate{
+    margin-top: 80px;
+}
+.checked{
+    color: orange;
+} 
+.cr-card{
+     height: 150px; 
+}
+.cr-btn{
+     margin-left: 40%; 
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-image: linear-gradient(to bottom,black,rgb(34, 34, 145),black);
+}
+.footer-links{
+    text-decoration: none;
+}
+.f-links{
+    text-decoration: none;
+    color: white;
+}
+.footer-list{
+    list-style: none;
+    margin-left: 23%;
+}
+
+.f-icon{
+    color: white;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.f-icon:hover{
+    color: red;
+    
+}
+.f-links:hover{
+    color: red;
+}
+
+.f-img{
+    width: 180px;
+    height: 180px;
+margin-left: 50%; 
+margin-top: 45px;   
+border-radius: 50%;
+}
+.f1,.f2,.f3{
+    
+    height: 300px;
+}
+.f-row{
+    width: 100%;
+    height: 300px;
+
+}
+@media (max-width:500px){
+    .f-row{
+        width: 100%;
+        height: 320px;
+    }
+    .footer-list{
+        margin-left: 2px;
+    }
+    .f-img{
+        width: 110px;
+        height: 110px;
+    }
+    footer{
+        height: 450px;
+    }
+    .f1{
+        width: 100%;
+        height: 200px;
+    }
+}
