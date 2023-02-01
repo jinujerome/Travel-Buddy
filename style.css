@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Andika&family=Caramel&family=Chivo+Mono:ital,wght@1,200&family=Hanken+Grotesk:wght@600&family=Indie+Flower&family=Josefin+Sans:wght@300&family=Montserrat:wght@300&family=Noto+Sans:wght@600&family=Oswald:wght@300&family=Prosto+One&family=Roboto:wght@500&family=Rubik+80s+Fade&family=Rubik+Gemstones&family=Rubik+Storm&family=Rubik+Vinyl&display=swap');
+
+
 body{
     scroll-behavior: smooth;
 }
@@ -90,19 +92,19 @@ header {
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
     animation-iteration-count: 1;
-    animation-name: slideInLeft; */  
+    animation-name: slideInLeft;   */
 
 
 
 }
- /* @keyframes slideInLeft {
+    /* @keyframes slideInLeft {
     0% {
       transform: translateX(-100%);
     }
     100% {
       transform: translateX(0);
-    }
-  } */ 
+    } 
+  }   */
 
 .inter-left{
     width: 100%;
@@ -162,7 +164,7 @@ header {
     filter: brightness(75%);
     border-radius: 8px; 
 }
-@media  (max-width:460px) {
+@media  (max-width:530px) {
     .collage-card{
         width: 100%;
          margin-left: 1px; 
@@ -199,7 +201,7 @@ header {
     
 }
 .india-card{
-    /* height: 200px; */
+    /* height: 150px;  */
     width: 100%;
 
     border-radius: 8px;  
