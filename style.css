@@ -71,10 +71,9 @@ header {
 
 .travel-message {
     font-size: 40px;
-    color:white;
-    font-family: 'Andika', sans-serif;
+    color:#fff;
+    font-family: 'Gloock', serif;
     margin-top: 78px;
-    
 
 
 }
@@ -168,7 +167,7 @@ header {
     .collage-card{
         width: 100%;
          margin-left: 1px; 
-        height: 800px;
+        /* height: 1000px; */
         margin-top: 20px;
 
     }
